@@ -686,12 +686,12 @@
 
 ## <a name='whitespace'>Whitespace</a>
 
-  - Use soft tabs set to 2 spaces
+  - Use soft tabs set to 4 spaces
 
     ```javascript
     // bad
     function() {
-    ∙∙∙∙var name;
+    ∙∙var name;
     }
 
     // bad
@@ -701,7 +701,7 @@
 
     // good
     function() {
-    ∙∙var name;
+    ∙∙∙∙var name;
     }
     ```
   - Place 1 space before the leading brace.
@@ -1235,7 +1235,7 @@
     }
     ```
 
-  - For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > .ul')`. [jsPerf](http://jsperf.com/jquery-find-vs-context-sel/16)
+  - For DOM queries use Cascading `$('.sidebar ul')` or parent > child `$('.sidebar > .ul')`. [jsPerf](http://jsperf.com/jquery-find-vs-context-sel/26)
   - Use `find` with scoped jQuery object queries.
 
     ```javascript
@@ -1251,11 +1251,8 @@
     // good
     $('.sidebar > ul').hide();
 
-    // good (slower)
+    // good
     $sidebar.find('ul');
-
-    // good (faster)
-    $($sidebar[0]).find('ul');
     ```
 
     **[[⬆]](#TOC)**
