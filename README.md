@@ -1985,7 +1985,7 @@
 
 ## Testing
 
-  - [28.1](#28.1) <a name='28.1'></a> **Yup.**
+  - [28.1](#28.1) <a name='28.1'></a> **Yup.** Our mandated testing stack utilizes [Mocha](http://mochajs.org/) as a test framework, [Karma](http://karma-runner.github.io/0.13/index.html) as a test runner, and [Chai](chai js) as an assertion library. An example of our testing workflow can be found at [https://github.com/natgeo/mocha-karma-chai](https://github.com/natgeo/mocha-karma-chai)
 
     ```javascript
     function() {
