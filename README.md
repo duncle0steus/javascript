@@ -1093,7 +1093,7 @@ Other Style Guides
 ## Modules
 
   <a name="modules--use-them"></a><a name="10.1"></a>
-  - [10.1](#modules--use-them) Always use modules (`import`/`export`) over a non-standard module system. You can always transpile to your preferred module system.
+  - [10.1](#modules--use-them) Always use modules (`import`/`export`) over a non-standard module system. You can always transpile to your preferred module system. It is acceptable to use non-standard require (CommonJS) syntax for Unit test spec files.
 
     > Why? Modules are the future, let's start using the future now.
 
