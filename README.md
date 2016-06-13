@@ -2613,8 +2613,8 @@ Other Style Guides
       // do something with data.listingId
     });
     ```
-
-    [24.2](#events-objectname) When creating an event the even should be named using an object literal. This makes it easier to debug errors and typo when  naming events-objectname. If you have only one event using a constant string or symbol is acceptable.
+  <a name="events--hash"></a><a name="24.1"></a>
+  - [24.2](#events-objectname) When creating an event, the event should be named using an object literal. This makes it easier to debug errors and typos when  naming the events using an object name. If you have only one event using a constant string or symbol is acceptable.
 
     ```javascript
     // good
