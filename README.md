@@ -2623,6 +2623,7 @@ Other Style Guides
   - The file should be named with camelCase, live in a folder with the same name, and match the name of the single export.
   - Add a method called `noConflict()` that sets the exported module to the previous version and returns this one.
   - Always declare `'use strict';` at the top of the module.
+  - Modules may also be exposed using Browserify `standalone`
 
     ```javascript
     // fancyInput/fancyInput.js
