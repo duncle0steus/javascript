@@ -277,15 +277,16 @@ Other Style Guides
       anakinSkywalker,
     };
 
-    // good
+    // good (grouped logically when possible, then alphabetically)
     const obj = {
-      lukeSkywalker,
       anakinSkywalker,
+      lukeSkywalker,
       episodeOne: 1,
-      twoJediWalkIntoACantina: 2,
       episodeThree: 3,
       mayTheFourth: 4,
+      twoJediWalkIntoACantina: 2,
     };
+
     ```
 
   <a name="objects--quoted-props"></a><a name="3.8"></a>
