@@ -811,6 +811,8 @@ Other Style Guides
 
     > Why not? If you have a fairly complicated function, you might move that logic out into its own function declaration.
 
+    > Disclaimer? When using mocha for writing specs arrow functions should not be used
+
     ```javascript
     // bad
     [1, 2, 3].map(function (x) {
@@ -829,7 +831,6 @@ Other Style Guides
   - [8.2](#arrows--implicit-return) If the function body consists of a single expression, omit the braces and use the implicit return. Otherwise, keep the braces and use a `return` statement. eslint: [`arrow-parens`](http://eslint.org/docs/rules/arrow-parens.html), [`arrow-body-style`](http://eslint.org/docs/rules/arrow-body-style.html) jscs:  [`disallowParenthesesAroundArrowParam`](http://jscs.info/rule/disallowParenthesesAroundArrowParam), [`requireShorthandArrowFunctions`](http://jscs.info/rule/requireShorthandArrowFunctions)
 
     > Why? Syntactic sugar. It reads well when multiple functions are chained together.
-    > Disclaimer? When using mocha for writing specs arrow functions should not be used
 
     ```javascript
     // bad
