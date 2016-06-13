@@ -2614,6 +2614,22 @@ Other Style Guides
     });
     ```
 
+    [24.2](#events-objectname) When creating an event the even should be named using an object literal. This makes it easier to debug errors and typo when  naming events-objectname. If you have only one event using a constant string or symbol is acceptable.
+
+    ```javascript
+    // good
+    const events = {
+    	login: 'ngs:login',
+      logout: 'ngs:logout'
+    }
+
+    // bad
+    xxx.on('ngs:login', func... );
+
+    // good
+    xxx.on(events.login, func... );
+    ```
+
   **[⬆ back to top](#table-of-contents)**
 
 
