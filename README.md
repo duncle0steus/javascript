@@ -9,7 +9,7 @@
 Other Style Guides
  - [ES5](es5/)
  - [React](react/)
- - [CSS & Sass](https://github.com/airbnb/css)
+ - [CSS & Sass](https://confluence.nationalgeographic.com/display/DS/CSS+Style+Guide)
 
 ## Table of Contents
 
